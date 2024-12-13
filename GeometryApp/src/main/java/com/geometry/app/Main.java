@@ -31,8 +31,8 @@ public class Main {
         System.out.printf("Perimeter: %.2f%n", rhombus.getPerimeter());
 
         System.out.println("\nShapeComparator");
-        System.out.printf("Area: triangle:rhombus %d%n", ShapeComparator.compareByArea(triangle,rhombus));
-        System.out.printf("Perimeter: triangle:rhombus %d%n", ShapeComparator.compareByPerimeter(triangle,rhombus));
+        System.out.printf("Area: triangle:rhombus %d%n", ShapeComparator.compareByArea(triangle, rhombus));
+        System.out.printf("Perimeter: triangle:rhombus %d%n", ShapeComparator.compareByPerimeter(triangle, rhombus));
 
         System.out.println("\nCube:");
         System.out.printf("Volume: %.2f%n", cube.getVolume());
