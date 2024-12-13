@@ -16,6 +16,6 @@ public class Rhombus implements Shape {
 
     @Override
     public double getPerimeter() {
-        return diagonal1 * 2 + diagonal2 * 2;
+        return 4 * Math.sqrt(diagonal1 * diagonal1 / 4 + diagonal2 * diagonal2 / 4);
     }
 }
